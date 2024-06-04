@@ -16,14 +16,14 @@ Welcome to the Photo Gallery App! This is a single-page JavaScript application b
 Before you begin, ensure you have the following installed on your machine:
 
 - Node.js and npm
-- Angular CLI
+- Angular v18 CLI
 
 ## Installation
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/photo-gallery-app.git
+   git clone https://github.com/craft-b/santender-gallery.git
    ```
 
 2. **Navigate into the project directory:**
