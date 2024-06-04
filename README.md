@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed on your machine:
 2. **Navigate into the project directory:**
 
    ```bash
-   cd photo-gallery-app
+   cd src/app
    ```
 
 3. **Install dependencies:**
