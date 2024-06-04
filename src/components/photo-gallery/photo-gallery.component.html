@@ -1,0 +1,16 @@
+<div class="photo-gallery">
+    <h2 class="gallery-title">Test Photo Gallery</h2>
+    <div class="photo-row">
+      <div *ngFor="let photo of photosPages[currentPage - 1]" class="photo-card">
+        <img [src]="photo.thumbnailUrl" [alt]="photo.title" />
+        <p>{{ photo.title }}</p>
+      </div>
+    </div>
+  </div>
+
+<div class="pagination">
+    <button (click)="setPage(currentPage - 1)" [disabled]="currentPage === 1">Previous</button>
+    <span>{{ currentPage }} / {{ totalPages }}</span>
+    <button (click)="setPage(currentPage + 1)" [disabled]="currentPage === totalPages">Next</button>
+  </div>
+  

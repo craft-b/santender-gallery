@@ -1,0 +1,73 @@
+.photo-gallery {
+  margin-bottom: 50px;
+  padding: 0 30px; 
+}
+
+.photo-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-title {
+  margin-bottom: 70px; 
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.photo-card {
+  flex: 0 0 calc(25% - 20px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.photo-card p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.photo-card:hover {
+  transform: translateY(-5px);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 0 5px;
+  background-color: black; 
+  color: white; 
+  border-style: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pagination button:hover {
+  background-color: #333; 
+}
+
+
+.pagination span {
+  font-weight: bold;
+  margin: 0 10px; 
+}
